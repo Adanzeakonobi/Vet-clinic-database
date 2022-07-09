@@ -146,4 +146,4 @@ INSERT INTO visits (animal_id, vet_id, date_of_visit)
 SELECT animals.id, vets.id, '2020-05-24' FROM animals, vets WHERE animals.name = 'Blossom' AND vets.name = 'Stephanie Mendez';
 
 INSERT INTO visits (animal_id, vet_id, date_of_visit) 
-SELECT animals.id, vets.id, '2021-01-11' FROM animals, vets WHERE animals.name = 'Blossom' AND vets.name = 'visited William';
+SELECT animals.id, vets.id, '2021-01-11' FROM animals, vets WHERE animals.name = 'Blossom' AND vets.name = 'William Tatcher';
