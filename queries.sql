@@ -141,13 +141,10 @@ ORDER BY visits.date_of_visit ASC
 LIMIT 1;
 
 -- Details for most recent visit: animal information, vet information, and date of visit.
-SELECT animals.*, vets.*, visits.date_of_visit
-FROM visits
-INNER JOIN animals ON (animals.id = visits.animal_id)
-INNER JOIN vets ON (vets.id = visits.vet_id)
-WHERE vets.name = 'Maisy Smith'
-ORDER BY visits.date_of_visit ASC
-LIMIT 1;
+SELECT * FROM visits
+JOIN animals ON animals.id = animal_id
+JOIN vets ON vets.id = vet_id
+ORDER BY date_of_visit DESC FETCH FIRST ROW ONLY;
 
 -- How many visits were with a vet that did not specialize in that animal's species?
 SELECT count(*) as visits_not_to_specialist
