@@ -168,5 +168,3 @@ WHERE vets.name = 'Maisy Smith'
 GROUP by vets.name, species.name
 ORDER BY count(animals.species_id) desc
 LIMIT 1;
-
-;
