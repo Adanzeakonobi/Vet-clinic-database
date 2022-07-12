@@ -2,7 +2,7 @@
 
 > This database project contains files that creates a table, insert data into the table and queries the data in the table.
 
-
+![Vet-clinic-Schema-Diagram](./Vet%20Clinic%20Schema%20Diagram.PNG)
 ## Getting Started
 
 This repository includes files with plain SQL that can be used to recreate a database:
@@ -12,13 +12,15 @@ This repository includes files with plain SQL that can be used to recreate a dat
 - Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. **Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
 
 
-## Authors
+## Author
 
 👤 **Adaobi Vivian Okoye**
 
 - GitHub: [@githubhandle](https://github.com/adanzeakonobi) 
 - Twitter: [@twitterhandle](https://twitter.com/Adaebubemmuta)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/okoyeaadaobi)
+
+## Contributor
 
 👤 **Rafael Guzman**
 
